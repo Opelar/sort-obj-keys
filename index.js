@@ -20,7 +20,7 @@ function sortObjKeys(obj) {
 }
 
 function isArray(val) {
-  return Array.isArray ? Array.isArray(val) : toString.call(val) === 'object Array]'
+  return Array.isArray ? Array.isArray(val) : toString.call(val) === '[object Array]'
 }
 
 function isObject(val) {
